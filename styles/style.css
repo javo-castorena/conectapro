@@ -1,0 +1,64 @@
+h1{
+   color: brown;
+   text-align: center;
+}
+
+.header {
+   background-color: #333; /* Cambia el color de fondo del encabezado */
+   color: #fff; /* Cambia el color del texto del encabezado */
+   padding: 20px; /* Agrega espacio alrededor del contenido del encabezado */
+   display: flex; /* Utiliza flexbox para alinear elementos */
+   align-items: center; /* Centra verticalmente los elementos del encabezado */
+}
+
+.header img {
+   width: 80px; /* Establece el ancho de la imagen del logo */
+   margin-right: 20px; /* Añade un espacio entre la imagen del logo y el contenido adicional */
+}
+
+.header nav ul {
+   list-style-type: none; /* Elimina los puntos de la lista */
+   margin: 0;
+   padding: 0;
+}
+
+.header nav ul li {
+   display: inline;
+   margin-right: 10px;
+}
+
+.header nav ul li a {
+   color: #fff; /* Cambia el color de los enlaces del menú */
+   text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+.video-container {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   
+}
+
+footer {
+   
+   background-color: #333; /* Color de fondo del footer */
+   color: #fff; /* Color del texto del footer */
+   padding: 20px; /* Espaciado interno del footer */
+   text-align: center; /* Alineación del texto al centro */
+   position: fixed; /* Posición fija en la parte inferior de la página */
+   bottom: 0; /* Pegado al fondo */
+   width: 100%; /* Ancho completo */
+   
+}
+
+.footer-content p {
+   
+   margin: 5px 0; /* Espaciado entre los párrafos de los datos de identificación */
+}
+
+body {
+   background-image: url('https://i.ytimg.com/vi/A2nDuKzpBbc/maxresdefault.jpg'); /* Ruta a tu imagen de fondo */
+   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+   background-position: center; /* Centra la imagen de fondo */
+   background-repeat: no-repeat; /* Evita que la imagen se repita */
+   color: #333; /* Color de texto para que sea legible en el fondo */
+}
