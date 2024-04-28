@@ -44,9 +44,10 @@ footer {
    color: #fff; /* Color del texto del footer */
    padding: 20px; /* Espaciado interno del footer */
    text-align: center; /* Alineación del texto al centro */
-   position: fixed; /* Posición fija en la parte inferior de la página */
+   /* position: fixed; Posición fija en la parte inferior de la página */
    bottom: 0; /* Pegado al fondo */
    width: 100%; /* Ancho completo */
+   
    
 }
 
@@ -61,4 +62,10 @@ body {
    background-position: center; /* Centra la imagen de fondo */
    background-repeat: no-repeat; /* Evita que la imagen se repita */
    color: #333; /* Color de texto para que sea legible en el fondo */
+   margin-top: 20px;
+}
+
+.titulo {
+   color: red;
+   text-align: center;
 }

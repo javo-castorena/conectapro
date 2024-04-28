@@ -21,6 +21,10 @@
                 </nav>
         </div>
 
+        <div class="titulo">
+            <h1>ConectaPRO</h1>
+        </div>
+
 
         <div class="contenedor">
             <!-- Todo el contenido de tu sitio va aquí -->
@@ -29,7 +33,8 @@
             </div>
             
             <!-- Más contenido -->
-        </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sed ab repellendus, itaque voluptas, minima necessitatibus corporis error odio, perferendis maiores doloremque voluptatibus eaque a asperiores atque numquam omnis animi.</p>
+            </div>
 
         <footer>
             <div class="footer-content">
